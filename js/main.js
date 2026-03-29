@@ -1,12 +1,8 @@
-/* ============================================
-   main.js — Animaciones y comportamiento
-============================================ */
+/* Animaciones y comportamiento */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ------------------------------------------
-     1. CURSOR GLOW
-  ------------------------------------------ */
+  /* CURSOR GLOW */
   const glow = document.getElementById('cursorGlow');
 
   document.addEventListener('mousemove', e => {
@@ -15,9 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ------------------------------------------
-     2. NAVBAR — compacta al hacer scroll
-  ------------------------------------------ */
+  /* NAVBAR — compacta al hacer scroll */
   const navbar = document.getElementById('navbar');
 
   window.addEventListener('scroll', () => {
@@ -29,9 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ------------------------------------------
-     3. SCROLL REVEAL
-  ------------------------------------------ */
+  /* SCROLL REVEAL */
   const revealEls = document.querySelectorAll('.reveal');
 
   const revealObserver = new IntersectionObserver(entries => {
@@ -46,9 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   revealEls.forEach(el => revealObserver.observe(el));
 
 
-  /* ------------------------------------------
-     4. COUNTER ANIMATION — stats del hero
-  ------------------------------------------ */
+  /* COUNTER ANIMATION — stats del hero */
   const counters = document.querySelectorAll('[data-target]');
 
   const counterObserver = new IntersectionObserver(entries => {
@@ -78,9 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
   counters.forEach(c => counterObserver.observe(c));
 
 
-  /* ------------------------------------------
-     5. TYPED EFFECT — hero subtitle
-  ------------------------------------------ */
+  /* TYPED EFFECT — hero subtitle */
   const titleEl = document.querySelector('.hero-title');
   const text    = 'Backend Architecture | Cloud Services | Security';
   let charIndex = 0;
@@ -107,9 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setTimeout(type, 900);
 
 
-  /* ------------------------------------------
-     6. PROJECT CARDS — tilt 3D on hover
-  ------------------------------------------ */
+  /* PROJECT CARDS — tilt 3D on hover */
   document.querySelectorAll('.project-card').forEach(card => {
     card.addEventListener('mousemove', e => {
       const rect = card.getBoundingClientRect();
@@ -129,9 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ------------------------------------------
-     7. SKILL CARDS — colored glow on hover
-  ------------------------------------------ */
+  /* SKILL CARDS — colored glow on hover */
   const skillColors = {
     green:  '#4A9EFF',
     blue:   '#4A9EFF',
@@ -155,9 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  /* ------------------------------------------
-     8. ACTIVE NAV LINK — highlight on scroll
-  ------------------------------------------ */
+  /* ACTIVE NAV LINK — highlight on scroll */
   const sections  = document.querySelectorAll('section[id]');
   const navLinks  = document.querySelectorAll('.nav-links a');
 
