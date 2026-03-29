@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Christian L. - Backend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Cursor Fx -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Nav Bar -->
+<nav id="navbar">
+  <a class="nav-logo" href="#"><span>//</span> chrisraaa</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<div style="max-width:1200px; margin:0 auto;">
+<section style="padding-top:0; padding-bottom:0;">
+<div class="hero">
+
+  <!-- Left: Content -->
+  <div class="hero-content">
+    <div class="hero-tag">Disponible para proyectos</div>
+
+    <h1 class="hero-name">
+      Christian<br><span class="accent">Backend.</span>
+    </h1>
+
+    <p class="hero-title"></p>
+
+    <p class="hero-location">
+      <!-- Pin icon -->
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+        <circle cx="12" cy="10" r="3"/>
+      </svg>
+      Lagos de Moreno, Jalisco - MX
+    </p>
+
+    <p class="hero-desc">
+      Construyo sistemas backend robustos, escalables y seguros.
+      Especializado en APIs REST y Microservicios..
+    </p>
+
+    <div class="cta-group">
+      <!-- GitHub -->
+      <a href="https://github.com/christian-backend"
+         target="_blank" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                   0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466
+                   -.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832
+                   .092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688
+                   -.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844
+                   a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651
+                   .64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855
+                   0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017
+                   C22 6.484 17.522 2 12 2z"/>
+        </svg>
+        GitHub
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://linkedin.com/in/christian-backend"
+         target="_blank" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939
+                   v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455
+                   v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019
+                   H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24
+                   h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        LinkedIn
+      </a>
+
+      <!-- Download CV -->
+      <a href="assets/cv_christian.pdf" download class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2.5">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Descargar CV
+      </a>
+
+    </div>
+  </div>
+
+  <!-- Right: Visual -->
+  <div class="hero-visual">
+    <div class="avatar-card">
+      <div style="position:relative; display:inline-block; width:100%;">
+        <div class="avatar-frame">
+          <span class="avatar-placeholder">👤</span>
+        </div>
+        <div class="badge-float">Node.js</div>
+        <div class="badge-float">JavaScript</div>
+        <div class="badge-float">Express.js</div>
+      </div>
+      <div class="stat-grid">
+        <div class="stat-item">
+          <div class="stat-num" data-target="12">0</div>
+          <div class="stat-label">Proyectos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="3">+1</div>
+          <div class="stat-label">Años exp.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+</div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-header reveal">
+    <h2 class="section-title">Skills</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal" data-color="green">
+      <span class="skill-icon">🟢</span>
+      <div class="skill-name">Node.js</div>
+    </div>
+    <div class="skill-card reveal" data-color="purple">
+      <span class="skill-icon">🐘</span>
+      <div class="skill-name">PHP / Laravel</div>
+    </div>
+    <div class="skill-card reveal" data-color="blue">
+      <span class="skill-icon">🐳</span>
+      <div class="skill-name">Docker</div>
+    </div>
+    <div class="skill-card reveal" data-color="blue">
+      <span class="skill-icon">🐘</span>
+      <div class="skill-name">PostgreSQL</div>
+    </div>
+    <div class="skill-card reveal" data-color="orange">
+      <span class="skill-icon">☁️</span>
+      <div class="skill-name">AWS</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <h2 class="section-title">Proyectos Destacados</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 001 -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <span class="project-num">#001</span>
+        <span class="project-status">✅ Producción</span>
+      </div>
+      <div class="project-preview">
+        <div class="arch-diagram">
+          <svg viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <marker id="arr1" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L6,3 z" fill="#4A9EFF" opacity="0.7"/>
+              </marker>
+            </defs>
+            <rect x="5"   y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="35"  y="58" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Client</text>
+            <rect x="120" y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#4A9EFF"  stroke-width="1" opacity="0.8"/>
+            <text x="150" y="54" text-anchor="middle" font-size="8" fill="#4A9EFF" font-family="monospace">API</text>
+            <text x="150" y="63" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Gateway</text>
+            <rect x="235" y="15" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="29" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Auth</text>
+            <text x="265" y="38" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Service</text>
+            <rect x="235" y="65" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="79" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">DB</text>
+            <text x="265" y="88" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Postgres</text>
+            <line x1="65"  y1="54" x2="118" y2="54" stroke="#4A9EFF" stroke-width="1" marker-end="url(#arr1)" opacity="0.6"/>
+            <line x1="180" y1="48" x2="233" y2="32" stroke="#7B8CDE" stroke-width="1" marker-end="url(#arr1)" opacity="0.5"/>
+            <line x1="180" y1="60" x2="233" y2="76" stroke="#7B8CDE" stroke-width="1" marker-end="url(#arr1)" opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Ejemplo 1</h3>
+        <p class="project-desc">
+          .........
+        </p>
+        <div class="project-techs">
+          <span class="tech-badge"><span class="ticon">🟢</span>Node.js</span>
+          <span class="tech-badge"><span class="ticon">🔐</span>JWT</span>
+          <span class="tech-badge"><span class="ticon">🗄️</span>Redis</span>
+          <span class="tech-badge"><span class="ticon">🐘</span>PostgreSQL</span>
+          <span class="tech-badge"><span class="ticon">🐳</span>Docker</span>
+        </div>
+        <div class="project-footer">
+          <a href="https://github.com/christian-backend/banking-api"
+             target="_blank" class="btn-github">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                       0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                       -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341
+                       1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                       0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                       A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                       2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339
+                       4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747
+                       0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            Ver en GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 002 -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <span class="project-num">#002</span>
+        <span class="project-status">✅ Producción</span>
+      </div>
+      <div class="project-preview">
+        <div class="arch-diagram">
+          <svg viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <marker id="arr2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L6,3 z" fill="#7B8CDE" opacity="0.7"/>
+              </marker>
+            </defs>
+            <rect x="5"   y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="35"  y="54" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Sub</text>
+            <text x="35"  y="63" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Service</text>
+            <rect x="120" y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#7B8CDE"  stroke-width="1" opacity="0.9"/>
+            <text x="150" y="54" text-anchor="middle" font-size="8" fill="#7B8CDE" font-family="monospace">WebSocket</text>
+            <text x="150" y="63" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Gateway</text>
+            <rect x="235" y="15" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="29" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">User DB</text>
+            <text x="265" y="38" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Mongo</text>
+            <rect x="235" y="65" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="79" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Cache</text>
+            <text x="265" y="88" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Redis</text>
+            <line x1="65"  y1="54" x2="118" y2="54" stroke="#7B8CDE" stroke-width="1" marker-end="url(#arr2)" opacity="0.6"/>
+            <line x1="180" y1="48" x2="233" y2="32" stroke="#4A9EFF" stroke-width="1" marker-end="url(#arr2)" opacity="0.5"/>
+            <line x1="180" y1="60" x2="233" y2="76" stroke="#4A9EFF" stroke-width="1" marker-end="url(#arr2)" opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Ejemplo 2</h3>
+        <p class="project-desc">
+          .........
+        </p>
+        <div class="project-techs">
+          <span class="tech-badge"><span class="ticon">🟢</span>Node.js</span>
+          <span class="tech-badge"><span class="ticon">⚡</span>Socket.io</span>
+          <span class="tech-badge"><span class="ticon">🍃</span>MongoDB</span>
+          <span class="tech-badge"><span class="ticon">🗄️</span>Redis</span>
+          <span class="tech-badge"><span class="ticon">🔐</span>JWT</span>
+        </div>
+        <div class="project-footer">
+          <a href="https://github.com/christian-backend/chat-gateway"
+             target="_blank" class="btn-github">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                       0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                       -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341
+                       1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                       0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                       A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                       2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339
+                       4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747
+                       0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            Ver en GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 003 -->
+    <div class="project-card reveal">
+      <div class="project-header">
+        <span class="project-num">#003</span>
+        <span class="project-status">🔧 En desarrollo</span>
+      </div>
+      <div class="project-preview">
+        <div class="arch-diagram">
+          <svg viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <marker id="arr3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L6,3 z" fill="#FF6B6B" opacity="0.7"/>
+              </marker>
+            </defs>
+            <rect x="5"   y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="35"  y="54" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Scraper</text>
+            <text x="35"  y="63" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Engine</text>
+            <rect x="120" y="40" width="60" height="28" rx="4" fill="#1A1E29" stroke="#FF6B6B"  stroke-width="1" opacity="0.9"/>
+            <text x="150" y="54" text-anchor="middle" font-size="8" fill="#FF6B6B" font-family="monospace">OSINT</text>
+            <text x="150" y="63" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Core API</text>
+            <rect x="235" y="15" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="29" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Analysis</text>
+            <text x="265" y="38" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Layer</text>
+            <rect x="235" y="65" width="60" height="28" rx="4" fill="#1A1E29" stroke="#252A38"  stroke-width="1"/>
+            <text x="265" y="79" text-anchor="middle" font-size="8" fill="#9AA0B4" font-family="monospace">Report</text>
+            <text x="265" y="88" text-anchor="middle" font-size="7" fill="#9AA0B4" font-family="monospace">Generator</text>
+            <line x1="65"  y1="54" x2="118" y2="54" stroke="#FF6B6B" stroke-width="1" marker-end="url(#arr3)" opacity="0.6"/>
+            <line x1="180" y1="48" x2="233" y2="32" stroke="#FFB830" stroke-width="1" marker-end="url(#arr3)" opacity="0.5"/>
+            <line x1="180" y1="60" x2="233" y2="76" stroke="#FFB830" stroke-width="1" marker-end="url(#arr3)" opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Ejemplo 3</h3>
+        <p class="project-desc">
+          .........
+        </p>
+        <div class="project-techs">
+          <span class="tech-badge"><span class="ticon">🟢</span>Node.js</span>
+          <span class="tech-badge"><span class="ticon">🔐</span>JWT</span>
+          <span class="tech-badge"><span class="ticon">🗄️</span>Redis</span>
+          <span class="tech-badge"><span class="ticon">🐘</span>PostgreSQL</span>
+          <span class="tech-badge"><span class="ticon">🛡️</span>OWASP</span>
+        </div>
+        <div class="project-footer">
+          <a href="https://github.com/christian-backend/osint-tooling"
+             target="_blank" class="btn-github">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                       0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                       -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341
+                       1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                       0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                       A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                       2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339
+                       4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747
+                       0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            Ver en GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<!-- <section id="certifications">
+  <div class="section-header reveal">
+    <span class="section-label">// 03</span>
+    <h2 class="section-title">Certificaciones (En Progreso)</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <div class="cert-icon">🛡️</div>
+      <div class="cert-info">
+        <div class="cert-name">CompTIA Security+</div>
+        <div class="cert-sub">CompTIA — Ciberseguridad fundamental</div>
+        <div class="cert-status">⏳ En progreso</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-icon">🔟</div>
+      <div class="cert-info">
+        <div class="cert-name">OWASP Top 10 Practice</div>
+        <div class="cert-sub">OWASP — Vulnerabilidades web críticas</div>
+        <div class="cert-status">⏳ En progreso</div>
+      </div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-icon">📋</div>
+      <div class="cert-info">
+        <div class="cert-name">Practical Exercises Certs</div>
+        <div class="cert-sub">Vinculadas al repositorio backend</div>
+        <div class="cert-status">⏳ En progreso</div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">
+    <span>chrisraaa.dev</span> — ISC · Lagos de Moreno
+  </div>
+  <div class="footer-links">
+    <a href="https://github.com/ChrisraaaLopez" target="_blank">GitHub</a>
+    <a href="#" target="_blank">LinkedIn</a>
+    <a href="#" download>Descargar CV</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
